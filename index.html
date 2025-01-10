@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Housing Price Prediction</title>
+</head>
+<body>
+    <h1>Housing Price Prediction</h1>
+    <form action="/predict" method="POST">
+        <label for="area">Area (sq ft):</label>
+        <input type="number" id="area" name="area" required><br><br>
+
+        <label for="bedrooms">Bedrooms:</label>
+        <input type="number" id="bedrooms" name="bedrooms" required><br><br>
+
+        <label for="bathrooms">Bathrooms:</label>
+        <input type="number" id="bathrooms" name="bathrooms" required><br><br>
+
+        <label for="stories">Stories:</label>
+        <input type="number" id="stories" name="stories" required><br><br>
+
+        <label for="mainroad">Main Road (yes/no):</label>
+        <input type="text" id="mainroad" name="mainroad" required><br><br>
+
+        <label for="guestroom">Guest Room (yes/no):</label>
+        <input type="text" id="guestroom" name="guestroom" required><br><br>
+
+        <label for="basement">Basement (yes/no):</label>
+        <input type="text" id="basement" name="basement" required><br><br>
+
+        <label for="hotwaterheating">Hot Water Heating (yes/no):</label>
+        <input type="text" id="hotwaterheating" name="hotwaterheating" required><br><br>
+
+        <label for="airconditioning">Air Conditioning (yes/no):</label>
+        <input type="text" id="airconditioning" name="airconditioning" required><br><br>
+
+        <label for="parking">Parking Spaces:</label>
+        <input type="number" id="parking" name="parking" required><br><br>
+
+        <label for="prefarea">Preferred Area (yes/no):</label>
+        <input type="text" id="prefarea" name="prefarea" required><br><br>
+
+        <label for="furnishingstatus">Furnishing Status (furnished/semi-furnished/unfurnished):</label>
+        <input type="text" id="furnishingstatus" name="furnishingstatus" required><br><br>
+
+        <button type="submit">Predict Price</button>
+    </form>
+</body>
+</html>
